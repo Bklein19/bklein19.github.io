@@ -433,7 +433,7 @@
 		// Events.
 			$this
 				.on('submit', function() {
-					/*
+
 					$this.find('input[type=text],input[type=password],textarea')
 						.each(function(event) {
 
@@ -450,11 +450,6 @@
 							}
 
 						});
-					*/
-					$('#emailcontact').attr('action',
-                       'mailto:bklein19@gmail.com?subject=' +
-                       'New email from ' + $('#name').val() + '&body=' + $('#message').val() + '\nFrom '+ $('#email').val());
-					$('#fr1').submit();
 
 				})
 				.on('reset', function(event) {
